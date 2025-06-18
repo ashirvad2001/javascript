@@ -48,5 +48,32 @@ two types of memory
 2- Heap: Non-Primitive datatypes stored here (When we use heap memory then we get reference of original value and if we do any changes then it get changed in original value)
 */
 
+let myYoutubeName = "ashirvaddotcom"
+
+let anotherName = myYoutubeName
+
+anotherName="Chai aur code"
+
+console.log(anotherName);
+console.log(myYoutubeName);
+
+
+// example of non-primitive data type
+let userOne = {
+    email: "user@google.com",
+    upi: "ok@axis"
+}
+
+let userTwo = userOne
+
+userTwo.email = "ashirvad@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
+
 
 
