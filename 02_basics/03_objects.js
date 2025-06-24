@@ -1,5 +1,5 @@
 // we can declare object by two ways :- one is literal and other is constructor
-// singleton:- if we make object through constructor hen it will make singleton object
+// singleton:- if we make object through constructor then it will make singleton object
 // Object.create //singleton type
 
 
