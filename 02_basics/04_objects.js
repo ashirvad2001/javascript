@@ -53,11 +53,51 @@ const users = [
 
 
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));  // it gives array inside array pairs of key and value
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));  // it gives array inside array pairs of key and value
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
-console.log(tinderUser.hasOwnProperty('isIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isIn'));
+
+
+
+
+
+/* ******************************************* Object destructuring *****************************************************  */
+const course={
+    coursename : "Javascript",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+
+//course.courseInstructor
+// const {courseInstructor} =course
+// console.log(courseInstructor);
+
+
+//if we want to do name short because it is big then you can do also and the result is also same
+
+const {courseInstructor:instructor}= course
+console.log(instructor);
+
+
+
+
+
+//JSON :- Javascript object notation
+
+// {
+//     "corsename": "Javascript",
+//     "price": "999"
+// }
+
+
+// //another types it can also be in the format of array also
+
+// [
+//     {}
+//     {}
+// ]
