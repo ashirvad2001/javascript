@@ -1,0 +1,9 @@
+JavaScript Execution Context:- Global Execution Context is always present either it has value or not.
+1)-Global execution context always refer to this keyword.
+2)-Function/Functional Execution Context is there.
+3)-In some documents Eval execution context is there.
+
+
+JavaScript code runs in two phases:-
+1)- Memory Creation phase/ Memory Phase/ Creation Phase  (Memory allocation is done here only)
+2)- Execution Phase 
